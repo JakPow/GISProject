@@ -1,0 +1,194 @@
+
+
+/*GLOBAL CSS*/
+.wholePage{
+	background-color:#008B8B;
+
+}
+
+/*SIDEBAR*/
+.sidenav {
+  height: 100%;
+  width:  15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: url("../Images/sidebar.png");
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebarElement{
+	border-radius: 25px;
+	margin: 25px;
+	background-color: #be0f34;
+	padding: 5px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+
+.main {
+  margin-left: 15%; /* Same as the width of the sidenav */
+  margin-top: 45px;
+  width: 80%;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*//////////////////////////////////////////////////*/
+
+/*COLUMNS*/
+/* Create two equal columns that floats next to each other */
+
+
+.colstogether{
+	border-radius:15px;
+	background-color:#FFFFFF;
+	padding: 10px;
+}
+
+.column{
+	float: left;
+	width: 90%;
+	padding: 10px;
+	height: 50px;
+	color: black;
+	float: left;
+	margin-bottom: 50px;
+	font-size: 25px;
+}
+
+.column1 {
+  float: left;
+  width: 60%;
+  height: 600px;
+  padding: 10px;
+  background-color:#FFFFFF;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-top:50px;
+}
+
+.column2 {
+  float: left;
+  width: 30%;
+  height: 600px;
+  padding: 10px;
+  background-color:#FFFFFF;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top:50px;
+}
+/*/////////////////////////////////////////////////////////////*/
+/*///////////////////////////*/
+/*Maps*/
+#map_space{
+		height: 600px;
+		width: 100%;
+		background-color: LightBlue;
+		border: 2px solid black;
+	}
+	
+#map_space1{
+		height: 600px;
+		width: 100%;
+		background-color: LightBlue;
+		border: 2px solid black;
+	}
+	
+#map_space2{
+		height: 600px;
+		width: 100%;
+		background-color: LightBlue;
+		border: 2px solid black;
+	}
+	
+	
+#map_space3{
+		height: 600px;
+		width: 100%;
+		background-color: LightBlue;
+		border: 2px solid black;
+	}
+	
+
+#map_space4{
+		height: 600px;
+		width: 100%;
+		background-color: LightBlue;
+		border: 2px solid black;
+	}
+	
+#map_space5{
+		height: 600px;
+		width: 100%;
+		background-color: LightBlue;
+		border: 2px solid black;
+	}
+	
+#map_space6{
+		height: 600px;
+		width: 100%;
+		background-color: LightBlue;
+		border: 2px solid black;
+	}
+	
+#map_space7{
+		height: 600px;
+		width: 100%;
+		background-color: LightBlue;
+		border: 2px solid black;
+	}
+	
+#map_space8{
+		height: 600px;
+		width: 100%;
+		background-color: LightBlue;
+		border: 2px solid black;
+	}
+	
+#map_space9{
+		height: 600px;
+		width: 100%;
+		background-color: LightBlue;
+		border: 2px solid black;
+	}
+	
+#map_space10{
+		height: 600px;
+		width: 100%;
+		background-color: LightBlue;
+		border: 2px solid black;
+	}
+	
+#map_space11{
+		height: 600px;
+		width: 100%;
+		background-color: LightBlue;
+		border: 2px solid black;
+	}
+/*//////////////////////////////////////////////////*/	
+/*Deliverable 1 CSS*/
+
+/*Propriety1 CSS*/
+/*Propriety2 CSS*/
+/*Propriety3 CSS*/
+/*Propriety4 CSS*/
+
+
+/*Deliverable 2 CSS*/
+/*Deliverable 3 CSS*/

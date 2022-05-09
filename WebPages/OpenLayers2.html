@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="../CSS/Coursework.css">
+<link rel="stylesheet" href="https://ces-web2.southwales.ac.uk/students/15581802/Year5GIS/OpenLayersV4/v4.6.5/css/ol.css"/>
+<script src="https://ces-web2.southwales.ac.uk/students/15581802/Year5GIS/OpenLayersV4/v4.6.5/build/ol.js"></script>
+<script src="../JavaScript/Deliverable1/OpenLayers2.js"></script>
+    <style>
+      #marker {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #088;
+        border-radius: 10px;
+        background-color: #0FF;
+        opacity: 0.5;
+      }
+	  #marker2 {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #088;
+        border-radius: 10px;
+        background-color: #0FF;
+        opacity: 0.5;
+      }
+      #cardiff {
+        text-decoration: none;
+        color: black;
+        font-size: 13pt;
+        font-weight: bold;
+        text-shadow: black 0.1em 0.1em 0.2em;
+      }
+	  #swansea {
+        text-decoration: none;
+        color: black;
+        font-size: 13pt;
+        font-weight: bold;
+        text-shadow: black 0.1em 0.1em 0.2em;
+      }
+
+    </style>
+</head>
+<body onload= "call_maps()" class="wholePage">
+
+
+<div class="sidenav">
+	<div class="sidebarElement">
+	  <a href="index.html">Home</a>
+	  <a href="deliverable1.html">Deliverable 1</a>
+	  <a href="deliverable2.html">Deliverable 2</a>
+	  <a href="deliverable3.html">Deliverable 3</a>
+	</div>
+</div>
+
+<!--
+<h1>Open Layers Version 4</h1>
+</br>
+<a href="deliverable2.html">back to Deliverable 2</a>
+
+<p>Open Layers map 1)</p>
+<div id="map_space" style="height: 540px; width: 100vh;"></div>
+	<form class="form-inline">
+      <label>Geometry type &nbsp;</label>
+      <select id="type">
+        <option value="Point">Point</option>
+        <option value="LineString">LineString</option>
+        <option value="Polygon">Polygon</option>
+        <option value="Circle">Circle</option>
+        <option value="None">None</option>
+      </select>
+    </form>
+	
+<p>Open Layers map 2)</p>
+<div id="map_space2" style="height: 540px; width: 100vh;"></div>
+
+
+<p>Open Layers map 3)</p>
+<div id="map_space3" style="height: 540px; width: 100vh;"></div>
+    <div style="display: none;">
+
+      <a class="overlay" id="cardiff" target="_blank" href="https://en.wikipedia.org/wiki/Cardiff_City_F.C.">Cardiff</a>
+      <div id="marker" title="Cardiff City Stadium"></div>
+
+    </div>
+	<div style="display: none;">
+
+      <a class="overlay" id="swansea" target="_blank" href="https://en.wikipedia.org/wiki/Swansea_City_A.F.C.">Swansea</a>
+      <div id="marker2" title="Liberty Stadium"></div>
+
+    </div>
+-->
+	
+	
+<div class="main">
+	<div>
+		<div class="column">
+				<h1>Open Layers Version 4</h1></br>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space"></div>
+			</div>
+			<div class="column2">
+				<h2>Open Layers map 1)</h2>
+				<p>text....</p>
+				<form class="form-inline">
+				<label>Geometry type &nbsp;</label>
+					<select id="type">
+						<option value="Point">Point</option>
+						<option value="LineString">LineString</option>
+						<option value="Polygon">Polygon</option>
+						<option value="Circle">Circle</option>
+						<option value="None">None</option>
+					</select>
+				</form>
+			</div>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space2"></div>
+			</div>
+			<div class="column2">
+				<h2>Open Layers map 2</h2>
+				<p>text...</p>
+			</div>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space3"></div>
+				<div style="display: none;">
+				<!-- Clickable label for cardiff -->
+				<a class="overlay" id="cardiff" target="_blank" href="https://en.wikipedia.org/wiki/Cardiff_City_F.C.">Cardiff</a>
+				<div id="marker" title="Cardiff City Stadium"></div>
+				<!-- Popup -->
+				</div>
+				<div style="display: none;">
+				<!-- Clickable label for swansea -->
+				<a class="overlay" id="swansea" target="_blank" href="https://en.wikipedia.org/wiki/Swansea_City_A.F.C.">Swansea</a>
+				<div id="marker2" title="Liberty Stadium"></div>
+				<!-- Popup -->
+				</div>
+			</div>
+			<div class="column2">
+				<h2>Open Layers map 3</h2>
+				<p>text...</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+

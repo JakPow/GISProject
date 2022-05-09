@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="../CSS/Coursework.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="  crossorigin=""/>
+
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="  crossorigin=""></script>
+<script src="../JavaScript/Deliverable1/leaflet1.js"></script>
+</head>
+<body onload= "call_maps()" class="wholePage">
+
+<div class="sidenav">
+	<div class="sidebarElement">
+	  <a href="index.html">Home</a>
+	  <a href="deliverable1.html">Deliverable 1</a>
+	  <a href="deliverable2.html">Deliverable 2</a>
+	  <a href="deliverable3.html">Deliverable 3</a>
+	</div>
+</div>
+
+
+
+<!--
+<p>Leaflet map 1)</p>
+<div id="map_space" style="height: 540px; width: 100vh;"></div>
+
+
+<p>Leaflet map 2 png tile server</p>
+<div id="map_space2" style="height: 540px; width: 100vh;"></div>
+
+
+<p>Leaflet access token: pk.eyJ1IjoiMTU1ODE4MDIiLCJhIjoiY2s2cWhmejU0MDlqYjNvcWxiNTd3cXFjbyJ9.Rpg1nIEuTOainxuM5dwhEg</p>
+-->
+
+<div class="main">
+	<div>
+		<div class="column">
+				<h1>Leaflet 1</h1></br>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space"></div>
+			</div>
+			<div class="column2">
+				<h2>Markers and Layers (Tile layers, markers)</h2>
+				<p>This map uses two leaflet tile layers. One to display a base map, and one to display train lines in the UK.</p>
+				<p>Two markers are also displayed, showing the locations of football stadiums.</p>
+			</div>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space2"></div>
+			</div>
+			<div class="column2">
+				<h2>USW Locations (Tile layers, cirlces, polygons, polylines, custom markers, event handlers, animated setView)</h2>
+				<p>This map displays the locations of all USW campus locations. Each campus is represented by a marker that uses custom icons.</p>
+				<p>When an icon is clicked, an onClick() handler is used to zoom in on the marker using an animation which will also open a popup which has campus information on.</p>
+				<p>If the icon is clicked again, the map will zoom back out and close the popup automatically. This is done using IF statements for each location.</p>
+				<p>A Polygon is used to show the area between all the campuses, which also has an onClick() feature that displays a popup showing this.</p>
+				<p>A circle is used to show the area between the two campuses in Pontypridd, which also has an onClick() feature that displays a popup showing this.</p>
+				<p>Polylines are used to connect all three locations cross section.</p>
+				<p>Clicking on any position on the entire map will also display a popup showing the location that you have clicked on the map.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>

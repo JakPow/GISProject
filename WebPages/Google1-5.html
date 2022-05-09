@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../JavaScript/Deliverable1/Google1-5.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../CSS/Coursework.css">
+
+</head>
+<body class="wholePage">
+
+<div class="sidenav">
+	<div class="sidebarElement">
+	  <a href="index.html">Home</a>
+	  <a href="deliverable1.html">Deliverable 1</a>
+	  <a href="deliverable2.html">Deliverable 2</a>
+	  <a href="deliverable3.html">Deliverable 3</a>
+	</div>
+</div>
+
+<!--
+<p>TASK 1</p>
+<div id="map_space"></div>
+
+<p>TASK 2</p>
+<div id="map_space2"></div>
+
+<p>TASK 3</p>
+<div id="map_space3"></div>
+
+<p>TASK 4</p>
+<div id="map_space4"></div>
+
+<p>TASK 5</p>
+<div id="map_space5"></div>
+
+<p>TASK 6</p>
+<div id="map_space6"></div>
+
+<p>Advanced Map</p>
+<div id="map_space7"></div>
+-->
+
+
+<div class="main">
+	<div>
+		<div class="column">
+				<h1>Google Maps 1</h1></br>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space"></div>
+			</div>
+			<div class="column2">
+				<h2>Basic slippy map</h2>
+				<p>This map is just a basic slippy map, proving the connection to the GoogleMaps API using a developer API key.</p>
+				
+			</div>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space1"></div>
+			</div>
+			<div class="column2">
+				<h2>Football clubs (custom markers, events, infoWindows)</h2>
+				<p>This map shows locations of football clubs in Wales.</p>
+				<p>All markers use custom icons sourced from each clubs wikipedia page.</p>
+				<p>Hovering over the marker displays the name of the stadium.</p>
+				<p>An onClick event displays an InfoWindow with a link to the club website that opens in a new tab</p>
+				<p>The onClick also pans to the relevent marker.</p>
+			</div>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space2"></div>
+			</div>
+			<div class="column2">
+				<h2>Castles in Wales (custom markers, animation)</h2>
+				<p>This map displays the locations of castles in Wales using a for loop iterating an array</p>
+				<p>The castle icons are sourced from <a href="https://www.flaticon.com/">flaticon.com</a></p>
+				<p>There is a drop animation when the map renders.</p>
+				<p>Hovering over each icon displays the name of the castle.</p>
+			</div>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space3"></div>
+			</div>
+			<div class="column2">
+				<h2>Airport paths (polylines, events, infoWindows)</h2>
+				<p>This map displays polylines representing flights paths out of Cardiff airport.</p>
+				<p>All polylines have unique styling applied to them</a></p>
+				<p>There is a mouseOver event that displays an infoWindow, and a mouseOut event which closes it.</p>
+				<p>The infoWindow display relevent information about the flight, as well as the point of the coordinates that you are hovered over (dynamic)</p>
+			</div>
+		<div>
+			<div class="column1">
+				<div id="map_space4"></div>
+			</div>
+			<div class="column2">
+				<h2>Windfarms locations (polygones)</h2>
+				<p>This map displays two polygones that show the areas of windfarms in Wales</p>
+				<p>Both polygones have unique styling applied to them</a></p>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+
+<!-- GOOGLE MAPS API KEYS 
+AIzaSyAGIGnfbRkpc-Z2BD3rilcCdPIjx81m60A
+AIzaSyBLIhh67VlNLyXtdcaNuap1ZfMhAG28gU0-->
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGIGnfbRkpc-Z2BD3rilcCdPIjx81m60A&callback=call_maps" async defer>
+</script>
+
+
+</body>
+</html>

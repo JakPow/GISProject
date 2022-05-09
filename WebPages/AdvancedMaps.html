@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../JavaScript/Deliverable1/Adcanvedmaps.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../CSS/Coursework.css">
+
+</head>
+<body class="wholePage">
+
+<div class="sidenav">
+	<div class="sidebarElement">
+	  <a href="index.html">Home</a>
+	  <a href="deliverable1.html">Deliverable 1</a>
+	  <a href="deliverable2.html">Deliverable 2</a>
+	  <a href="deliverable3.html">Deliverable 3</a>
+	</div>
+</div>
+
+<!--
+<p>TASK 1</p>
+<div id="map_space"></div>
+
+<p>TASK 2</p>
+<div id="map_space2"></div>
+
+<p>TASK 3</p>
+<div id="map_space3"></div>
+
+<p>TASK 4</p>
+<div id="map_space4"></div>
+
+<p>TASK 5</p>
+<div id="map_space5"></div>
+
+<p>TASK 6</p>
+<div id="map_space6"></div>
+
+<p>Advanced Map</p>
+<div id="map_space7"></div>
+-->
+
+
+<div class="main">
+	<div>
+		<div class="column">
+				<h1>Advanced Maps</h1></br>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space"></div>
+			</div>
+			<div class="column2">
+				<h2>Google - Advanced map 1 (Clustering, Event Handler/ Listener, Custom Markers, InfoWindows)</h2>
+				<p>This map shows locations of Hospitals in England using Clustering.</p>
+				<p>Clicking on the clustered circles will zoom in and show refind results, you can also manually zoom.</p>
+				<p>When showing one location of a hospital, a custom icon will be shown as the marker, sourced from <a href="https://www.flaticon.com/">flaticon.com</a></p>
+				<p>An onClick event handler is used whwenyou click on a marker, which displays an infoWindow which displays the name of the hospital.</p>
+				<p>The hospital data is sourced from <a href="https://data.gov.uk/">gov.co.uk</a></p>
+			</div>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space2"></div>
+			</div>
+			<div class="column2">
+				<h2>Google - Advanced map 2 (Custom controls, Custom Map styling, KML data, Polylines, Event Listeners, InfoWindows)</h2>
+				<p>This map shows various routes to travel from Cardiff to London. The map uses custom styling, as well as custom built control buttons to display the routes.</p>
+				<p>The buttons uses Event Listeners, so when clicked, the route will appear for the selected button.</p>
+				<p>EAch route consists of KML data that displays a polyline. When the polyine is clicked, an Info window will appear showing the distance and time the route takes.</p>
+				<p>The route data is sourced from taking the route links from Google Maps, and then converting the link on <a href="https://www.gpsvisualizer.com/">gpsvisualizer.com</a> into a GPX file, and then into KML data.</p>
+			</div>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space3"></div>
+			</div>
+			<div class="column2">
+				<h2>Bing - Advanced map 3 (Clustering, Polygons, Custom controls, Event Handlers, InfoWindows, setView)</h2>
+				<p>This map visually shows the populations of all the capital cities in the United Kingdom by using clustering. The cities with higher populations will have more clusters.</p>
+				<p>When clikcing one of the custom control buttons, the map will pan to the chosen city and zoom in on it using the setView() function. </p>
+				<p>Each City is surrounded by a polygon to show the area.</p>
+				<p>When a polygon is clicked, an Event Handler is used to display an infoWindow with the exact population of the city.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- GOOGLE MAPS API KEYS 
+AIzaSyAGIGnfbRkpc-Z2BD3rilcCdPIjx81m60A
+AIzaSyBLIhh67VlNLyXtdcaNuap1ZfMhAG28gU0-->
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGIGnfbRkpc-Z2BD3rilcCdPIjx81m60A&callback=call_maps" async defer></script>
+<script src="https://www.bing.com/api/maps/mapcontrol?callback=draw_map3"></script>
+
+
+
+
+</body>
+</html>

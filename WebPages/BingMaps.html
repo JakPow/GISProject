@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../JavaScript/Deliverable1/BingMaps.js"></script>
+<script src="../JavaScript/Deliverable1/LineString.js"></script>
+<script src="../JavaScript/Deliverable1/Polygon.js"></script>
+<script src="../JavaScript/Deliverable1/WalesOutline.js"></script>
+<script src="../JavaScript/Deliverable1/NationalParks.js"></script>
+<link rel="stylesheet" type="text/css" href="../CSS/Coursework.css">
+
+</head>
+<body class="wholePage">
+
+<div class="sidenav">
+	<div class="sidebarElement">
+	  <a href="index.html">Home</a>
+	  <a href="deliverable1.html">Deliverable 1</a>
+	  <a href="deliverable2.html">Deliverable 2</a>
+	  <a href="deliverable3.html">Deliverable 3</a>
+	</div>
+</div>
+
+
+<!--
+<p>BING API Key: Aln-fyk_wB3McoozAuiwWLboymQsXGPD9HfFZ0323CsY7I2Bh3WTXUWF6LAKgb4x</p>
+-->
+
+
+<div class="main">
+	<div>
+		<div class="column">
+				<h1>Bing Maps 2</h1></br>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space4"></div>
+			</div>
+			<div class="column2">
+				<h2>Bing PolyLine (External GeoJSON)</h2>
+				<p>This map displays a Bing Linestring using angeoJSON from an external file.</p>
+			</div>
+		<div>
+			<div class="column1">
+				<div id="map_space5"></div>
+			</div>
+			<div class="column2">
+				<h2>Bing PolyGon (External GeoJSON)</h2>
+				<p>This map displays a Bing Polygon using a geoJSON from an external file.</p>
+			</div>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space6"></div>
+			</div>
+			<div class="column2">
+				<h2>National Parks (Multiple Polygons, external GeoJSON)</h2>
+				<p>This map displays two polgyons, one for an Outline of Wales and one for National parks in Wales.</p>
+				<p>The data is sourced ecternally from GeoJSON files, and are booth individually styled.</p>
+			</div>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space7"></div>
+			</div>
+			<div class="column2">
+				<h2>Windfarms (Polygons, External GeoJSON)</h2>
+				<p>This map displays two polgyons that show windfarms in Wales</p>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+
+<script src="https://www.bing.com/api/maps/mapcontrol?callback=call_maps">
+</script>
+
+</body>
+</html>

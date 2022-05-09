@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../JavaScript/Deliverable1/BingMaps2.js"></script>
+<script src="../JavaScript/Deliverable1/LineString.js"></script>
+<script src="../JavaScript/Deliverable1/Polygon.js"></script>
+<script src="../JavaScript/Deliverable1/WalesOutline.js"></script>
+<script src="../JavaScript/Deliverable1/NationalParks.js"></script>
+<link rel="stylesheet" type="text/css" href="../CSS/Coursework.css">
+
+</head>
+<body class="wholePage">
+
+<div class="sidenav">
+	<div class="sidebarElement">
+	  <a href="index.html">Home</a>
+	  <a href="deliverable1.html">Deliverable 1</a>
+	  <a href="deliverable2.html">Deliverable 2</a>
+	  <a href="deliverable3.html">Deliverable 3</a>
+	</div>
+</div>
+
+
+<!--
+<p>BING API Key: Aln-fyk_wB3McoozAuiwWLboymQsXGPD9HfFZ0323CsY7I2Bh3WTXUWF6LAKgb4x</p>
+-->
+
+
+<div class="main">
+	<div>
+		<div class="column">
+				<h1>Bing Maps 1</h1></br>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space"></div>
+			</div>
+			<div class="column2">
+				<h2>Basic Slippy map</h2>
+				<p>This map is just a basic slippy map, proving the connection to the Microsoft Bing maps API using a developer API key.</p>
+			</div>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space2"></div>
+			</div>
+			<div class="column2">
+				<h2>Stadiums (GeoJSON Markers, custom style)</h2>
+				<p>This Bing map uses GeoJson to display markers that display two stadiums in Wales.</p>
+				<p>Custom styling is used rather than a default Bing map style.</p>
+			</div>
+		</div>
+		<div>
+			<div class="column1">
+				<div id="map_space3"></div>
+			</div>
+			<div class="column2">
+				<h2>Custom Bing Map (Custom markers, events, polylines, polygons, event handlers, info boxes)</h2>
+				<p>This is a custom bing map using all the techniques learned.</p>
+				<p>Customer icons are used for the pins (markers to display three USW campus locations.)</p>
+				<p>A red dashed polyline is used to connect all three.</p>
+				<p>A seperate polygon using the same coordinates as the polyline is used to show the land inbetween them all.</p>
+				<p>An event handler is used to display an infobox with relevent information when the markers are clicked.</p>
+				<p>The USW icons are sourced from <a href="https://www.flaticon.com/">flaticon.com</a></p>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+
+<script src="https://www.bing.com/api/maps/mapcontrol?callback=call_maps">
+</script>
+
+</body>
+</html>
